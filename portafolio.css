@@ -1,0 +1,370 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --bg-primaryColor: rgba(0, 0, 0, 0.849);
+    --bg-secondaryColor: rgba(98, 97, 97, 0.758);
+    --font-primaryColor: white;
+}
+
+header{
+    height: 120px;
+    width: 100vw;
+    background-color:var(--bg-primaryColor);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--bg-primaryColor);
+}
+
+.footerLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-primaryColor);
+    background-color: var(--bg-primaryColor)
+}
+
+.github{
+    text-decoration:none;
+    color: var(--font-primaryColor);
+}
+
+.github:visited{
+    color:var(--font-primaryColor);
+}
+
+.imagenLogo{
+    height: 100%;
+    width:100%;
+    display: flex;
+    margin-left: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-right: 030px;
+}
+
+.linksMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--font-primaryColor);
+    margin: 30px;
+    text-decoration: none;
+}
+
+.imagenFondo{
+    height: calc(100vh - 120px);
+    width: 100%;
+    position:relative;
+}
+
+.imageBg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.containerBio{
+    height: calc(100vh - 120px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(98, 97, 97, 0.758);
+}
+
+.boxPhoto{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    margin-left: 50px;
+}
+
+.photo{
+    border-radius: 80px;
+    margin: 30px 50px;
+    
+}
+
+.boxText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.textBio{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 30px;
+    text-align: center;
+    border: 5px solid rgba(42, 40, 40, 0.802);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.containerContact{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--bg-secondaryColor);
+}
+
+.tituloContacto{
+    font-size: 40px;
+    margin-top: 20px;
+    color: var(--font-primaryColor);
+}
+
+.miniContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    height: calc(100vh - 70px);
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 50%;
+    width: 50%;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.enlacesContacto{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.enlaceEscrito{
+    margin-left: 10px;  
+}
+
+.enlaceLinkedin{
+    text-decoration: none;
+    margin-left: 10px; 
+}
+
+.enlaceLinkedin:visited{
+    text-decoration: none;
+    margin-left: 10px; 
+    color: black;
+}
+
+.container2{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 20px 20px 30px 20px;
+    margin-top: 30px;
+}
+
+.boton{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+.tecnologias{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-secondaryColor);
+}
+
+.frontEnd{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoTecnologia{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+.h2Tecnologias{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.pTecnologias{
+    color: white;
+}
+
+.enlacesTecnologias{
+    text-decoration: none;
+    color: white;
+}
+
+.enlacesTecnologias:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.backEnd{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trabajosContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-secondaryColor);
+}
+
+.webs{
+    display:flex;
+    height: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.tituloTrabajo{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.cardsTrabajo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.imgTrabajo{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pTrabajo{
+    margin-top: 30px;
+}
+
+
+
+.apps{
+    display:flex;
+    height: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.tituloGit{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.imgGit{
+    height: 50%;
+    display: block;
+    max-width: 100%;
+    transition: transform 2s ease;
+}
+
+.imgGit:hover{
+    height: 50%;
+    display: block;
+    max-width: 100%;
+    transform: scale(1.1);
+    transition: transform 2s ease;
+}
+
+.imgTrabajo:hover{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: transform 2s ease;
+}
+
+a:hover {
+    transform: scale(1.5);
+    transition: transform 2s ease 1.5s, text-decoration 1.5s underline; 
+}
+
+.logoTecnologia:hover{
+    transform: scale(1.1);
+    transition: transform 1.5s linear;
+}
+
